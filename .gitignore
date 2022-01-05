@@ -11,3 +11,4 @@ typings/
 logs/
 client_deploy/
 .vscode/
+.env

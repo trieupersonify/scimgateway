@@ -1957,3 +1957,15 @@ This plugin now replace previous `plugin-testmode`
 Initial version
 
 
+**[INTEGRATE WITH AZUE]**
+Edit `tenantIdGUID` if user
+```json
+"bearerJwtAzure": [
+	{
+		"tenantIdGUID": <your_tenant_guid_here>,
+		"readOnly": false,
+		"baseEntities": []
+	}
+]
+
+``` 
