@@ -1958,13 +1958,12 @@ Initial version
 
 
 **[INTEGRATE WITH AZUE]**
-Edit `tenantIdGUID` if user
+Edit `tenantIdGUID` in file `config/plugin-loki.json`
 ```json
 "bearerJwtAzure": [
 	{
 		"tenantIdGUID": <your_tenant_guid_here>,
-		"readOnly": false,
-		"baseEntities": []
+		...
 	}
 ]
 
